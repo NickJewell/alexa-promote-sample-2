@@ -24,7 +24,7 @@ LAMBDA FUNCTION Configuration:
 
  - Be sure to use a blank python function template
  - Use Python 2.7
- - Set your handler to alexa-promote.lambda_handler (referencing the python code in the repo)
+ - Set your handler to alexa-predictive.lambda_handler (referencing the python code in the repo)
  - You'll need to create a basic lambda execution role. Instructions here: http://docs.aws.amazon.com/lambda/latest/dg/with-s3-example-create-iam-role.html
  - In Advanced Settings, use a timeout of 30s (as I've found the default 3s to be a little unforgiving!)
  - Once created, take a note of the ARN (Amazon Resource ID) as you'll need to link this into your Alexa Skill.
